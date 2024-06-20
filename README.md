@@ -10,4 +10,7 @@ df = rows[:]
 
 from draxutils import show_pd
 show_pd(df)
+
+# if there is a column with multiple images, you can specify the column name
+# show_pd(df, imglist_key='mycol')
 ```
